@@ -3,6 +3,7 @@
     "python.pythonPath": "venv/bin/python",
     "python.linting.pylintArgs": [
         "--load-plugins=pylint_django"
-    ]
+    ],
+    "python.autoComplete.addBrackets": true
 }
 
