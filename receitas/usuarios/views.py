@@ -1,11 +1,11 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
-def cadas(request):
-    return render(request,'cadastro.html')
+def cadastro(request):
+    return render(request,'usuarios/cadastro.html')
 
 def loguin(request):
-    pass
+    return render(request,'usuarios/usuarios.html')
 
 def deshborad(request):
     pass
